@@ -1,0 +1,102 @@
+/* Carrusel Owl */
+
+.slider {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.slider .owl-item.active.center .slider-card {
+  transform: scale(1.15);
+  opacity: 1;
+  background: transparent;
+  color: #fff;
+}
+
+.slider-card {
+  /* background: #fff; */
+  padding: 0px;
+  margin: 50px 15px 90px 15px;
+  border-radius: 5px;
+  transform: scale(0.9);
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+
+.slider-card img {
+  border-radius: 5px 5px 0px 0px;
+  height: 23rem;
+}
+
+/* CONTENEDOR DE LOS CONTROLES PERSONALIZADOS */
+.custom-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* BOTONES PERSONALIZADOS */
+.btn-nav {
+  background-color: transparent;
+  border: none;
+  font-size: 28px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.btn-nav:hover {
+  color: #f44336;
+}
+
+/* DOTS como Pokébolas */
+.owl-dots-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.owl-dots {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+  gap: 8px;
+}
+
+.owl-dot {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  background: linear-gradient(to bottom, #ff1c1c 50%, #ffffff 50%);
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.owl-dot::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #000;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+/* Estado activo */
+.owl-dot.active {
+  background: linear-gradient(to bottom, #e60000 50%, #f5f5f5 50%);
+  box-shadow: 0 0 6px #f44336;
+  transform: scale(1.2);
+}
+
+#custom-next {
+  border-radius: 50%;
+}

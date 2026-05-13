@@ -1,0 +1,11 @@
+
+
+    #ghost {
+      position: absolute;
+      width: 120px;
+      height: auto;
+      opacity: 0;
+      transition: opacity 1s ease-in-out, transform 2s linear;
+      pointer-events: none;
+      z-index: 9999;
+    }

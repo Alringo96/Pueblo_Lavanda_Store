@@ -1,0 +1,44 @@
+/***********************************/
+/**************POPUP***************/
+/***********************************/
+
+.ghost-popup {
+  display: none; /* oculto por defecto */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+}
+
+.ghost-popup-content {
+  background: #222;
+  color: #fff;
+  padding: 20px 30px;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  font-family: "Press Start 2P", system-ui; /* fuente retro */
+  font-size: 12px;
+  text-align: center;
+  max-width: 400px;
+  line-height: 24px;
+}
+
+.ghost-popup-content button {
+  margin-top: 15px;
+  padding: 5px 15px;
+  background: #fff;
+  color: #222;
+  border: none;
+  font-family: "Press Start 2P", system-ui;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.ghost-popup-content button:hover {
+  background: #ccc;
+}

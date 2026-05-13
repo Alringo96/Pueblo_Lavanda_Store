@@ -1,0 +1,42 @@
+footer {
+  background-color: #6A0DAD !important; /* morado fuerte */
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  margin-top: 5rem;
+}
+
+footer hr {
+  border: none;
+  height: 3px;
+  background: linear-gradient(to right, #FFD700, transparent, #FFD700);
+  margin: 0 auto 2rem auto;
+  width: 60%;
+  border-radius: 2px;
+}
+
+footer p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+footer a {
+  color: #FFD700;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #fff;
+  text-shadow: 0 0 6px #FFD700;
+}
+
+/* Firma final */
+footer p:last-child {
+  font-family: "Cinzel Decorative", serif;
+  font-size: 0.9rem;
+  color: #FFD700;
+  margin-top: 0.8rem;
+}

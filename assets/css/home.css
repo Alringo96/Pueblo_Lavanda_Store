@@ -1,0 +1,91 @@
+body {
+  background-color: #B57EDC; /* lavanda claro */
+  font-family: "Poppins", sans-serif;
+  color: #f2f2f2;
+}
+
+.titulo-mockups{
+  font-family: "Press Start 2P", system-ui;
+}
+
+/* --- Productos Pueblo Lavanda --- */
+.productos .card {
+  background: #6A0DAD; /* morado fuerte */
+  border: 2px solid #FFD700; /* borde dorado */
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(117, 82, 103, 0.6);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  color: #fff;
+}
+
+.productos .card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.8);
+}
+
+.productos .card-img-top {
+  border-bottom: 2px solid #FFD700;
+  border-radius: 1rem 1rem 0 0;
+  object-fit: cover;
+  height: 220px;
+}
+
+.productos .card-body {
+  text-align: center;
+  padding: 1.2rem;
+}
+
+.productos .card-title {
+  font-family: "Cinzel Decorative", serif;
+  font-size: 1.3rem;
+  color: #FFD700;
+  margin-bottom: 0.6rem;
+}
+
+.productos .card-text {
+  font-size: 0.95rem;
+  color: #FFFFFF;
+  opacity: 0.9;
+}
+
+/* Botones dentro de productos */
+.productos .btn {
+  font-family: "Press Start 2P", cursive;
+  background: #0D0D0D;
+  color: #FFD700;
+  border: 2px solid #FFD700;
+  border-radius: 0.6rem;
+  padding: 0.6rem 1rem;
+  transition: all 0.2s ease;
+}
+
+.productos .btn:hover {
+  background: #FFD700;
+  color: #0D0D0D;
+  text-shadow: 0 0 6px #6A0DAD;
+}
+
+/* --- Paginación Pueblo Lavanda --- */
+#paginacion .page-link {
+  font-family: "Press Start 2P", cursive;
+  color: #FFFFFF;
+  background-color: #6A0DAD;
+  border: 2px solid #FFD700;
+  border-radius: 0.6rem;
+  margin: 0 5px;
+  transition: all 0.2s ease;
+}
+
+#paginacion .page-link:hover {
+  background-color: #FFD700;
+  color: #0D0D0D;
+  text-shadow: 0 0 4px #6A0DAD;
+}
+
+#paginacion .active .page-link {
+  background-color: #FFD700;
+  color: #0D0D0D;
+  border-color: #FFFFFF;
+  box-shadow: 0 0 10px #FFD700;
+}
+

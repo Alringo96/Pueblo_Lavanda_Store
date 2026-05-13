@@ -1,0 +1,56 @@
+/***********************************/
+/**************NAVBAR***************/
+/***********************************/
+
+#logo {
+  max-width: 100px;
+  border-radius: 50px;
+  }
+
+  .navbar.navbar-expand-lg.navbar-dark.bg-dark.mb-4 {
+background: #6A0DAD !important;
+}
+
+/* SUBMENU MEGA DROPDOWN */
+
+/* Caja de cada juego */
+.card-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 180px;
+  height: 170px;
+  margin: 0 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Imagen */
+.menu-logo {
+  width: 150px;
+  height: inherit;
+  object-fit: contain;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Texto */
+.menu-text {
+  font-size: 0.9rem;
+  line-height: 1.2;
+  margin-top: 5px;
+}
+
+/* Hover */
+.card-item:hover {
+  transform: translateY(-5px);
+}
+.card-item:hover .menu-logo {
+  transform: scale(1.15);
+  filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.7));
+}
+
+.btn-menu i{
+  color:  rgba(255, 255, 255, 0.55);
+}

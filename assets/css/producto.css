@@ -1,0 +1,122 @@
+/* --- Fondo general --- */
+
+
+/* --- Galería principal --- */
+/* --- Galería principal simplificada --- */
+.product-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #FFD700; /* solo borde dorado */
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.5); /* opcional, solo un toque de sombra */
+  background: transparent; /* elimina fondo */
+  max-height: none; /* deja que la imagen crezca */
+  overflow: hidden;
+}
+
+.product-gallery img {
+  width: 100%;
+  height: auto; /* mantiene proporción */
+  max-height: 80vh; /* que no desborde la pantalla */
+  object-fit: contain;
+  border-radius: 0.8rem;
+}
+
+
+/* --- Bloques de información --- */
+.bg-white {
+  background: #6A0DAD !important; /* cambio a morado fuerte */
+  border: 2px solid #FFD700;
+  box-shadow: 0 0 15px rgba(181, 126, 220, 0.6);
+  color: #fff !important;
+}
+
+.bg-white h1,
+.bg-white h3,
+.bg-white strong {
+  font-family: "Cinzel Decorative", serif;
+  color: #FFD700;
+}
+
+.bg-white p,
+.bg-white li,
+.bg-white span {
+  color: #fff !important;
+  opacity: 0.95;
+}
+
+/* --- Badges --- */
+.badge {
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.7rem;
+  padding: 0.5em 0.8em;
+  border: 1px solid #FFD700;
+}
+
+.badge.bg-light {
+  background: #0D0D0D !important;
+  color: #FFD700 !important;
+}
+
+.badge.bg-info {
+  background: #FFD700 !important;
+  color: #0D0D0D !important;
+}
+
+.badge.bg-warning {
+  background: #B57EDC !important;
+  color: #0D0D0D !important;
+  border: 1px solid #FFD700;
+}
+
+/* --- Tarjeta de precio --- */
+.price-card {
+  border: 2px solid #FFD700;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.7);
+  background: #6A0DAD;
+  color: #fff;
+  position: relative;
+}
+
+.price-card .card-title {
+  font-family: "Cinzel Decorative", serif;
+  color: #FFD700;
+}
+
+/* --- Botones cantidad --- */
+.input-group .btn {
+  font-family: "Press Start 2P", cursive;
+  background: #0D0D0D;
+  color: #FFD700;
+  border: 2px solid #FFD700;
+  transition: all 0.2s ease;
+}
+
+.input-group .btn:hover {
+  background: #FFD700;
+  color: #0D0D0D;
+}
+
+/* --- Botón principal Comprar --- */
+#comprar {
+  font-family: "Press Start 2P", cursive;
+  background: #FFD700;
+  color: #0D0D0D;
+  border: 2px solid #0D0D0D;
+  border-radius: 0.6rem;
+  transition: all 0.2s ease;
+}
+
+#comprar:hover {
+  background: #0D0D0D;
+  color: #FFD700;
+  text-shadow: 0 0 6px #6A0DAD;
+}
+
+
+.page-btn {
+    width: 40px;
+}

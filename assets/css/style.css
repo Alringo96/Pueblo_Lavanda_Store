@@ -1,0 +1,148 @@
+/* Registro */
+
+body {
+  background-color: #f8f9fa;
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: "Press Start 2P", system-ui;
+}
+
+.registration-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.registration-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #343a40;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+.btn-register {
+  width: 100%;
+  padding: 10px;
+  font-weight: 600;
+}
+
+/***********************************/
+/**************INDEX****************/
+/***********************************/
+
+.card {
+  height: 100%;
+
+  .box-img {
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+
+    .card-img-top {
+      height: 100%;
+    }
+  }
+}
+
+/*page-btn*/
+.page-btn {
+  width: 40px;
+}
+
+/***********************************/
+/**************PRODUCT**************/
+/***********************************/
+
+.product-header {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 15px;
+}
+
+/* Floating price card */
+.price-card {
+  position: sticky;
+  top: 20px;
+  width: 100%;
+  height: auto !important;
+}
+
+@media (max-width: 991.98px) {
+  .price-card {
+    position: static;
+    margin-top: 30px;
+  }
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.color-badge {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 8px;
+  border: 1px solid #dee2e6;
+  cursor: help;
+  transition: transform 0.2s;
+  vertical-align: middle;
+}
+
+.color-badge:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+/*BADGE FLAMES*/
+
+.badge.bg-danger {
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.6rem;
+  border: 1px solid #FFD700;
+  color: #FFD700;
+  text-shadow: 0 0 4px #FFD700;
+  background: black !important;
+  z-index: 2;
+  animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 2px #FFD700, 0 0 4px #FFD700;
+  }
+  to {
+    box-shadow: 0 0 8px #FFD700, 0 0 16px #FFA500;
+  }
+}
+
+canvas.badge-flames {
+  position: absolute;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/*FOOTER*/
+
+footer {
+    margin-top: auto;
+}
+
+
+
+.main-login{
+  height: 83vh;
+}
+
+.navbar-admin{
+  background-color: #6A0DAD;
+}
